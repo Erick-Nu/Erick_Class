@@ -14,4 +14,14 @@ public class Cancion {
         this.genero = genero;
         this.duracion = duracion;
     }
+
+    public int getDuracion() {
+        return duracion;
+    }
+    public String getNombre() {
+        return nombre;
+    }
+    public String getSong() {
+        return song;
+    }
 }

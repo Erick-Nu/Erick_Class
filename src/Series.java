@@ -14,4 +14,19 @@ public class Series {
         this.genero = genero;
         this.capitulos = capitulos;
     }
+    public String getNombre() {
+        return nombre;
+    }
+    public String getDirector() {
+        return director;
+    }
+    public String getEstudio() {
+        return estudio;
+    }
+    public String getGenero() {
+        return genero;
+    }
+    public int getCapitulos() {
+        return capitulos;
+    }
 }

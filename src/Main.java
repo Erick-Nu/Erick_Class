@@ -10,6 +10,13 @@ public class Main {
             Libro libro3 = new Libro("El amor en los tiempos del cólera","Gabriel García Márquez","Vintage",368);
             Libro libro4 = new Libro("Rayuela","Julio Cortázar","Alfaguara",580);
             Libro libro5 = new Libro("King of Wrath","Ana Huang", "Lecturalia", 452);
+            // CLASE SERIE
+            Series series1 = new Series("The Office","Erick","WarnerBros",50);
+            Series series2 = new Series("The BigBang T","Damian","WarnerBros",150);
+            // CLASE CANCION
+            Cancion cancion1 = new Cancion("Hasta Luego","Myke Towers","Black Panter","regueeton",2);
+            Cancion cancion2 = new Cancion("Girls","Myke Towers","La vida es una","rap",2);
+
             libro1.imprimir();
             System.out.println(libro1.imprimircubierta());
             libro2.imprimir();
@@ -20,5 +27,7 @@ public class Main {
             System.out.println(libro4.imprimircubierta());
             libro5.imprimir();
             System.out.println(libro5.imprimircubierta());
+            // Metodos de la clase series
+            System.out.printf(series2.getGenero());
         }
 }
