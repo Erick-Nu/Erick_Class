@@ -23,6 +23,4 @@ public class Libro {
     public int imprimircubierta(){
         return this.paginas + 5;
     }
-
-
 }
