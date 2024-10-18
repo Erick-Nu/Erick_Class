@@ -35,7 +35,6 @@ public class Series {
     public void setDirector(String director) {
         this.director = director;
     }
-
     public int getCapitulos() {
         return capitulos;
     }
