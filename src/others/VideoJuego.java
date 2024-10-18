@@ -1,3 +1,5 @@
+package others;
+
 public class VideoJuego {
     // ATRIBUTOS
     String nameOfVideoGame;

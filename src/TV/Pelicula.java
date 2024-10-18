@@ -1,3 +1,5 @@
+package TV;
+
 public class Pelicula {
     String titulo;
     String autor;
@@ -17,7 +19,9 @@ public class Pelicula {
         this.categoria = categoria;
         this.yearPublished = yearPublished;
     }
-
+    // METODO CONSTRUCTOR VACIO
+    public Pelicula() {
+    }
     // setts
 
     public void setTitulo(String titulo) {
@@ -71,5 +75,14 @@ public class Pelicula {
         System.out.println("[CATEGORY]: "+ getCategoria());
         System.out.println("[YEAR PUBLISHED]: "+ getYearPublished());
         System.out.println("-----------------------------------");
+    }
+
+    // METODO PUBLICO
+    public void metodo1(){
+
+    }
+    //  METODO PRIVADO
+    private void metodo2(){
+
     }
 }

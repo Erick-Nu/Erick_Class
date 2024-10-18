@@ -1,3 +1,5 @@
+package others;
+
 public class Libro {
     // DECLARACION DE LOS ATRIBUTOS QUE VA A TENER LA CLASE
     String titulo;

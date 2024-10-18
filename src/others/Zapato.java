@@ -1,3 +1,5 @@
+package others;
+
 public class Zapato {
     String marca;
     String color;

@@ -1,3 +1,5 @@
+package others;
+
 public class Materia {
     String name;
     String professor;

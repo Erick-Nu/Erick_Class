@@ -1,3 +1,5 @@
+package Musica;
+
 public class Cancion {
     // ATRIBUTOS
     String nombre;
